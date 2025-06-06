@@ -5,13 +5,12 @@ import HeroCarousel from '@/components/HeroCarousel';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import ContactSection from '@/components/ContactSection';
-import AppointmentForm from '@/components/AppointmentForm';
 import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
   useEffect(() => {
-    document.title = 'Hear2Speak Hearing, Speech and Vestibular Clinic';
+    document.title = 'Hear2Speak Clinic: Centre for Hearing, Speech, and Vestibular Rehabilitation';
   }, []);
 
   return (
@@ -21,7 +20,6 @@ const Index = () => {
       <AboutSection />
       <ServicesSection />
       <ContactSection />
-      <AppointmentForm />
       <FAQSection />
       <Footer />
     </div>

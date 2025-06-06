@@ -18,12 +18,8 @@ const FAQSection = () => {
       answer: "On average, hearing aids last about 5-7 years. However, this can vary depending on the model, how well they're maintained, and technological advancements. Regular maintenance can extend their lifespan. We recommend annual checkups to ensure your hearing aids are functioning optimally and meeting your hearing needs."
     },
     {
-      question: "Do you accept insurance for your services?",
-      answer: "Yes, we work with most major insurance providers. Coverage varies depending on your specific plan and the services needed. Our administrative team can help verify your benefits before your appointment and explain any potential out-of-pocket costs."
-    },
-    {
       question: "How long does a typical speech therapy session last?",
-      answer: "Most speech therapy sessions last between 30-60 minutes, depending on the individual's needs and age. For children, sessions might be shorter to accommodate their attention span. The frequency of sessions is personalized based on your therapist's recommendation and can range from once a week to several times a week."
+      answer: "Most speech therapy sessions last between 30-40 minutes, depending on the individual's needs and age. For children, sessions might be shorter to accommodate their attention span. The frequency of sessions is personalized based on your therapist's recommendation and can range from once a week to several times a week."
     },
     {
       question: "Can hearing loss be prevented?",

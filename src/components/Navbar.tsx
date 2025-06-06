@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { Headphones, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,10 +40,19 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Headphones className="w-8 h-8 text-clinic-teal mr-2" />
-          <h1 className="text-xl md:text-2xl font-bold text-clinic-blue-dark">
-            Hear<span className="text-clinic-teal">2</span>Speak
-          </h1>
+          <img 
+            src="/lovable-uploads/fbefea4b-bdcd-4868-b2c5-59e85b6f4e82.png" 
+            alt="Hear2Speak Clinic Logo" 
+            className="w-12 h-12 mr-3"
+          />
+          <div>
+            <h1 className="text-lg md:text-xl font-bold text-clinic-blue-dark leading-tight">
+              Hear<span className="text-clinic-teal">2</span>Speak Clinic
+            </h1>
+            <p className="text-xs md:text-sm text-clinic-grey leading-tight">
+              Centre for Hearing, Speech, and Vestibular Rehabilitation
+            </p>
+          </div>
         </div>
 
         {/* Desktop Navigation */}
@@ -78,12 +87,6 @@ const Navbar = () => {
           >
             FAQs
           </button>
-          <Button 
-            onClick={() => scrollToSection('appointment')}
-            className="bg-clinic-teal hover:bg-clinic-teal-dark text-white"
-          >
-            Book Appointment
-          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -129,12 +132,6 @@ const Navbar = () => {
             >
               FAQs
             </button>
-            <Button 
-              onClick={() => scrollToSection('appointment')}
-              className="w-full bg-clinic-teal hover:bg-clinic-teal-dark text-white"
-            >
-              Book Appointment
-            </Button>
           </div>
         </div>
       )}

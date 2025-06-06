@@ -1,27 +1,26 @@
 
 import React, { useState, useEffect } from 'react';
-import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-// Mock images for the clinic
+// Updated images more relevant to hearing, speech and vestibular clinic
 const carouselImages = [
   {
-    url: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&q=80&w=1200",
-    alt: "Professional hearing test equipment in clinic",
-    title: "Professional Hearing Assessment",
-    description: "Comprehensive hearing tests with advanced equipment for accurate diagnosis."
+    url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=1200",
+    alt: "Professional audiologist conducting hearing test",
+    title: "Comprehensive Hearing Assessment",
+    description: "Advanced diagnostic equipment for accurate hearing evaluations and personalized care."
   },
   {
-    url: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&q=80&w=1200",
-    alt: "Speech therapy session with a therapist and patient",
-    title: "Expert Speech Therapy",
-    description: "Personalized speech therapy sessions for all age groups."
+    url: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=1200",
+    alt: "Speech therapy session with child and therapist",
+    title: "Expert Speech & Language Therapy",
+    description: "Specialized therapy sessions for all ages to improve communication skills."
   },
   {
-    url: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&q=80&w=1200",
-    alt: "Modern hearing aids on display",
-    title: "Latest Hearing Aids",
-    description: "Wide range of hearing aids from leading global manufacturers."
+    url: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=1200",
+    alt: "Modern hearing aids and assistive devices",
+    title: "Latest Hearing Technology",
+    description: "Wide range of hearing aids and assistive devices from leading manufacturers."
   }
 ];
 
@@ -43,8 +42,8 @@ const HeroCarousel = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const scrollToAppointment = () => {
-    const element = document.getElementById('appointment');
+  const scrollToContact = () => {
+    const element = document.getElementById('contact');
     if (element) {
       const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - 100;
       window.scrollTo({
@@ -93,12 +92,12 @@ const HeroCarousel = () => {
           </div>
         ))}
         <div className="mt-4">
-          <Button 
-            onClick={scrollToAppointment}
-            className="bg-clinic-teal hover:bg-clinic-teal-dark text-white text-lg px-6 py-6"
+          <button 
+            onClick={scrollToContact}
+            className="bg-clinic-teal hover:bg-clinic-teal-dark text-white text-lg px-6 py-6 rounded transition-colors"
           >
-            Book an Appointment
-          </Button>
+            Contact Us Today
+          </button>
         </div>
       </div>
 

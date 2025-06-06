@@ -13,6 +13,9 @@ const ServicesSection = () => {
         "Comprehensive hearing aid consultation",
         "Digital and analog hearing aids",
         "In-the-ear (ITE) and behind-the-ear (BTE) options",
+        "Receiver-in-canal (RIC) hearing aids",
+        "In-the-canal (ITC) hearing aids",
+        "Completely-in-the-canal (CIC) hearing aids",
         "Invisible hearing aids",
         "Regular maintenance and adjustments"
       ]
@@ -22,6 +25,8 @@ const ServicesSection = () => {
       description: "Personalized therapy for speech, language, and communication disorders for children and adults.",
       icon: FileText,
       details: [
+        "Speech and Language Assessments",
+        "Pediatric Speech and Language Therapy",
         "Speech sound disorders treatment",
         "Language development therapy",
         "Articulation therapy",
@@ -49,7 +54,6 @@ const ServicesSection = () => {
       icon: Calendar,
       details: [
         "Auditory training",
-        "Speech reading",
         "Communication strategies",
         "Balance rehabilitation therapy",
         "Group therapy sessions",
