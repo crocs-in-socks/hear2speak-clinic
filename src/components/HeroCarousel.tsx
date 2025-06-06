@@ -5,22 +5,16 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 // Updated images with the user's uploaded images
 const carouselImages = [
   {
-    url: "/lovable-uploads/0b89e2e4-a3f8-421a-81d3-0bed4b9d5d4e.png",
-    alt: "Professional audiologist conducting hearing test",
-    title: "Comprehensive Hearing Assessment",
-    description: "Advanced diagnostic equipment for accurate hearing evaluations and personalized care."
+    url: "/lovable-uploads/0e84f660-452e-42bc-b221-0c62f08bf552.png",
+    alt: "Various types of hearing aids from BTE to CIC models",
+    title: "Advanced Hearing Solutions",
+    description: "Complete range of hearing aids including BTE, RIC, ITC, and CIC models for every hearing need."
   },
   {
-    url: "/lovable-uploads/ba5d3b72-d2ab-4dd2-9a14-5c6fc8dcaf19.png",
-    alt: "Speech therapy session with child and therapist",
-    title: "Expert Speech & Language Therapy",
-    description: "Specialized therapy sessions for all ages to improve communication skills."
-  },
-  {
-    url: "/lovable-uploads/d1d87cbe-f70a-427a-b7e0-e2a5f4bb55ce.png",
-    alt: "Modern hearing aids and assistive devices",
-    title: "Latest Hearing Technology",
-    description: "Wide range of hearing aids and assistive devices from leading manufacturers."
+    url: "/lovable-uploads/a08754b8-0d28-4838-bb7e-9b51138c1d4a.png",
+    alt: "Speech therapy session with children using therapeutic tools",
+    title: "Pediatric Speech & Language Therapy",
+    description: "Specialized therapy sessions for children to improve communication and language development."
   }
 ];
 
