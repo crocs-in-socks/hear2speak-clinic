@@ -2,22 +2,22 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-// Updated images more relevant to hearing, speech and vestibular clinic
+// Updated images with the user's uploaded images
 const carouselImages = [
   {
-    url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&q=80&w=1200",
+    url: "/lovable-uploads/0b89e2e4-a3f8-421a-81d3-0bed4b9d5d4e.png",
     alt: "Professional audiologist conducting hearing test",
     title: "Comprehensive Hearing Assessment",
     description: "Advanced diagnostic equipment for accurate hearing evaluations and personalized care."
   },
   {
-    url: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=1200",
+    url: "/lovable-uploads/ba5d3b72-d2ab-4dd2-9a14-5c6fc8dcaf19.png",
     alt: "Speech therapy session with child and therapist",
     title: "Expert Speech & Language Therapy",
     description: "Specialized therapy sessions for all ages to improve communication skills."
   },
   {
-    url: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=1200",
+    url: "/lovable-uploads/d1d87cbe-f70a-427a-b7e0-e2a5f4bb55ce.png",
     alt: "Modern hearing aids and assistive devices",
     title: "Latest Hearing Technology",
     description: "Wide range of hearing aids and assistive devices from leading manufacturers."
@@ -83,18 +83,18 @@ const HeroCarousel = () => {
               index === currentSlide ? 'opacity-100' : 'opacity-0 absolute'
             }`}
           >
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 max-w-3xl">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 max-w-3xl">
               {image.title}
             </h1>
-            <p className="text-xl text-white mb-8 max-w-2xl">
+            <p className="text-2xl md:text-3xl text-white mb-10 max-w-2xl">
               {image.description}
             </p>
           </div>
         ))}
-        <div className="mt-4">
+        <div className="mt-6">
           <button 
             onClick={scrollToContact}
-            className="bg-clinic-teal hover:bg-clinic-teal-dark text-white text-lg px-6 py-6 rounded transition-colors"
+            className="bg-clinic-teal hover:bg-clinic-teal-dark text-white text-xl md:text-2xl px-8 py-8 rounded transition-colors"
           >
             Contact Us Today
           </button>
@@ -103,25 +103,25 @@ const HeroCarousel = () => {
 
       {/* Navigation Buttons */}
       <button
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 text-white p-2 rounded-full"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full"
         onClick={prevSlide}
       >
-        <ChevronLeft size={24} />
+        <ChevronLeft size={32} />
       </button>
       <button
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 text-white p-2 rounded-full"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full"
         onClick={nextSlide}
       >
-        <ChevronRight size={24} />
+        <ChevronRight size={32} />
       </button>
 
       {/* Indicators */}
-      <div className="absolute bottom-8 left-0 right-0 z-20 flex justify-center space-x-2">
+      <div className="absolute bottom-8 left-0 right-0 z-20 flex justify-center space-x-3">
         {carouselImages.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-colors ${
+            className={`w-4 h-4 rounded-full transition-colors ${
               index === currentSlide ? 'bg-white' : 'bg-white/50'
             }`}
           />
