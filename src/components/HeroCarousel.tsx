@@ -1,17 +1,16 @@
-
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Updated images with the user's uploaded images
 const carouselImages = [
   {
-    url: "/lovable-uploads/0e84f660-452e-42bc-b221-0c62f08bf552.png",
-    alt: "Various types of hearing aids from BTE to CIC models",
+    url: "/lovable-uploads/4c333741-29fd-46d7-8cc0-3307f8584d9f.png",
+    alt: "Complete range of hearing aids from BTE to CIC models",
     title: "Advanced Hearing Solutions",
     description: "Complete range of hearing aids including BTE, RIC, ITC, and CIC models for every hearing need."
   },
   {
-    url: "/lovable-uploads/a08754b8-0d28-4838-bb7e-9b51138c1d4a.png",
+    url: "/lovable-uploads/3ad9d88e-6c90-4175-b159-0421c15b334f.png",
     alt: "Speech therapy session with children using therapeutic tools",
     title: "Pediatric Speech & Language Therapy",
     description: "Specialized therapy sessions for children to improve communication and language development."
