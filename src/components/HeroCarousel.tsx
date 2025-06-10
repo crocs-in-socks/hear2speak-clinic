@@ -14,6 +14,24 @@ const carouselImages = [
     alt: "Speech therapy session with children using therapeutic tools",
     title: "Pediatric Speech & Language Therapy",
     description: "Specialized therapy sessions for children to improve communication and language development."
+  },
+  {
+    url: "/lovable-uploads/584e6640-d210-467e-9d05-67b7cd3169a9.png",
+    alt: "Child receiving hearing assessment at our clinic",
+    title: "Professional Hearing Assessment",
+    description: "Comprehensive hearing evaluations using state-of-the-art audiometric equipment for all ages."
+  },
+  {
+    url: "/lovable-uploads/59d0cf33-a037-419b-aa3f-cc4446423e9b.png",
+    alt: "Modern audiometry equipment and testing station",
+    title: "Advanced Diagnostic Equipment",
+    description: "Modern audiometry and vestibular testing equipment for accurate diagnosis and treatment planning."
+  },
+  {
+    url: "/lovable-uploads/90afb042-97dd-4113-94b3-e79c3cad5bf7.png",
+    alt: "Comfortable clinic consultation room with patient",
+    title: "Comfortable Treatment Environment",
+    description: "Welcoming and comfortable consultation rooms designed for optimal patient care and communication."
   }
 ];
 
