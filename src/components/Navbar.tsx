@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/a9284387-e0fc-4021-870e-10316e783593.png" 
+            src="/lovable-uploads/9791f334-85c5-43a9-87bc-79774db9bedc.png" 
             alt="Hear2Speak Clinic Logo" 
             className="h-16 w-auto mr-4"
           />
