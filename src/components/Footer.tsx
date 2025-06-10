@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
 
@@ -13,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <img 
-                src="/lovable-uploads/fbefea4b-bdcd-4868-b2c5-59e85b6f4e82.png" 
+                src="/lovable-uploads/9791f334-85c5-43a9-87bc-79774db9bedc.png" 
                 alt="Hear2Speak Clinic Logo" 
                 className="w-12 h-12 mr-3"
               />
