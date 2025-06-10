@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -16,8 +17,8 @@ const carouselImages = [
     description: "Specialized therapy sessions for children to improve communication and language development."
   },
   {
-    url: "/lovable-uploads/584e6640-d210-467e-9d05-67b7cd3169a9.png",
-    alt: "Child receiving hearing assessment at our clinic",
+    url: "/lovable-uploads/2826f35f-ae9a-413a-9045-28959b6301a1.png",
+    alt: "Child receiving hearing assessment with audiometry equipment",
     title: "Professional Hearing Assessment",
     description: "Comprehensive hearing evaluations using state-of-the-art audiometric equipment for all ages."
   },

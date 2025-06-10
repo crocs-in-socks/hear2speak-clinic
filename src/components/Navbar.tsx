@@ -41,15 +41,15 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/fbefea4b-bdcd-4868-b2c5-59e85b6f4e82.png" 
+            src="/lovable-uploads/a9284387-e0fc-4021-870e-10316e783593.png" 
             alt="Hear2Speak Clinic Logo" 
-            className="w-12 h-12 mr-3"
+            className="w-16 h-16 mr-4"
           />
           <div>
-            <h1 className="text-lg md:text-xl font-bold text-clinic-blue-dark leading-tight">
+            <h1 className="text-2xl md:text-3xl font-bold text-clinic-blue-dark leading-tight">
               Hear<span className="text-clinic-teal">2</span>Speak Clinic
             </h1>
-            <p className="text-xs md:text-sm text-clinic-grey leading-tight">
+            <p className="text-base md:text-lg text-clinic-grey leading-tight">
               Centre for Hearing, Speech, and Vestibular Rehabilitation
             </p>
           </div>
