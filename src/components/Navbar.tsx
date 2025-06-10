@@ -43,7 +43,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/a9284387-e0fc-4021-870e-10316e783593.png" 
             alt="Hear2Speak Clinic Logo" 
-            className="w-16 h-16 mr-4"
+            className="h-16 w-auto mr-4"
           />
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-clinic-blue-dark leading-tight">
